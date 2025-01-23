@@ -21,13 +21,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="w-11/12 mx-auto py-6">
-        <nav className="mb-10">
+        <nav className="mb-5">
         <div className="flex justify-between items-center">
           <div><p>Blog Haven</p></div>
           <div>
             <ul className="flex gap-6 items-center">
               <li><Link href="/">Home</Link></li>
-              <li><Link href="/blogs">Blog</Link></li>
               <li><Link href="/" >Profile</Link></li>
             </ul>
           </div>
